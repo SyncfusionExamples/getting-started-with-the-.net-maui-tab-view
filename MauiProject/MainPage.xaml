@@ -9,7 +9,7 @@
     </ContentPage.BindingContext>
     <sf:SfTabView ItemsSource="{Binding Data}" TabBarPlacement="Top"
                   TabBarBackground="LightBlue"
-                  IndicatorPlacement="Fill"
+                  IndicatorPlacement="Top"
                   IndicatorBackground="Red">
         <sf:SfTabView.HeaderItemTemplate>
             <DataTemplate >
