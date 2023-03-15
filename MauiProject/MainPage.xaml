@@ -85,7 +85,7 @@
                         </BindableLayout.ItemsSource>
                         <BindableLayout.ItemTemplate>
                             <DataTemplate>
-                                <Label Text="{Binding}" Padding="5,10,10,10" FontSize="16"></Label>
+                                <Label Text="{Binding}" Padding="10" FontSize="16"></Label>
                             </DataTemplate>
                         </BindableLayout.ItemTemplate>
                     </VerticalStackLayout>
