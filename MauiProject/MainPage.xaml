@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sf="clr-namespace:Syncfusion.Maui.TabView;assembly=Syncfusion.Maui.TabView"
+             xmlns:local="clr-namespace:MauiProject"
+             x:Class="MauiProject.MainPage">
+    <ContentPage.BindingContext>
+        <local:DataViewModel />
+    </ContentPage.BindingContext>
+    <sf:SfTabView ItemsSource="{Binding Data}" TabBarPlacement="Top"
+                  TabBarBackground="LightBlue"
+                  IndicatorPlacement="Top"
+                  IndicatorBackground="Red">
+        <sf:SfTabView.HeaderItemTemplate>
+            <DataTemplate >
+                <Label Text="{Binding Name}" Padding="10"/>
+            </DataTemplate>
+        </sf:SfTabView.HeaderItemTemplate>
+        <sf:SfTabView.ContentItemTemplate>
+            <DataTemplate>
+                <Label Text="{Binding Description}" Padding="10" LineHeight="1.8"/>
+            </DataTemplate>
+        </sf:SfTabView.ContentItemTemplate>
+        <!--<sf:SfTabView.Items>
+            <sf:SfTabItem Header="Missed" ImageSource="incoming.png"
+                          ImagePosition="Left">
+                <sf:SfTabItem.Content>
+                    <VerticalStackLayout>
+                        <BindableLayout.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Richard</x:String>
+                                <x:String>Steve</x:String>
+                                <x:String>Nancy</x:String>
+                                <x:String>Andrew</x:String>
+                                <x:String>Laura</x:String>
+                                <x:String>Daniel</x:String>
+                                <x:String>Alex</x:String>
+                            </x:Array>
+                        </BindableLayout.ItemsSource>
+                        <BindableLayout.ItemTemplate>
+                            <DataTemplate>
+                                <Label Text="{Binding}" Padding="10" FontSize="16"></Label>
+                            </DataTemplate>
+                        </BindableLayout.ItemTemplate>
+                    </VerticalStackLayout>
+                </sf:SfTabItem.Content>
+            </sf:SfTabItem>
+            <sf:SfTabItem Header="Favorites">
+                <sf:SfTabItem.Content>
+                    <VerticalStackLayout>
+                        <BindableLayout.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Stephen</x:String>
+                                <x:String>Nancy</x:String>
+                                <x:String>Andrew</x:String>
+                            </x:Array>
+                        </BindableLayout.ItemsSource>
+                        <BindableLayout.ItemTemplate>
+                            <DataTemplate>
+                                <Label Text="{Binding}" Padding="10" FontSize="16"></Label>
+                            </DataTemplate>
+                        </BindableLayout.ItemTemplate>
+                    </VerticalStackLayout>
+                </sf:SfTabItem.Content>
+            </sf:SfTabItem>
+            <sf:SfTabItem Header="Contacts">
+                <sf:SfTabItem.Content>
+                    <VerticalStackLayout>
+                        <BindableLayout.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>James</x:String>
+                                <x:String>Richard</x:String>
+                                <x:String>Michael</x:String>
+                                <x:String>Alex</x:String>
+                                <x:String>Clara</x:String>
+                                <x:String>Steve</x:String>
+                                <x:String>David</x:String>
+                                <x:String>Stephen</x:String>
+                                <x:String>Nancy</x:String>
+                                <x:String>Andrew</x:String>
+                                <x:String>Janet</x:String>
+                                <x:String>Alex</x:String>
+                                <x:String>Joseph</x:String>
+                            </x:Array>
+                        </BindableLayout.ItemsSource>
+                        <BindableLayout.ItemTemplate>
+                            <DataTemplate>
+                                <Label Text="{Binding}" Padding="10" FontSize="16"></Label>
+                            </DataTemplate>
+                        </BindableLayout.ItemTemplate>
+                    </VerticalStackLayout>
+                </sf:SfTabItem.Content>
+            </sf:SfTabItem>
+        </sf:SfTabView.Items>-->
+    </sf:SfTabView>
+
+</ContentPage>
