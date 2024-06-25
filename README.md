@@ -2,7 +2,7 @@
 [.NET MAUI Tab View](https://www.syncfusion.com/maui-controls/maui-tab-view?utm_source=github&utm_medium=listing&utm_campaign=maui-tab-view-github-samples) is a simple and intuitive interface for tab navigation in mobile and desktop applications, where users can explore and switch between different tabs. A quick-start project that helps you to integrate a Tab View control in a .NET MAUI application by adding the Syncfusion MAUI Tab View package from NuGet. This project contains simple code customizations, like how to add tabs items, populate the item source, and change the tab width mode, tab bar placement, and selection indicator placement.
 
 ## Project prerequisites
-Make sure that you have the compatible versions of [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/ ) with the Dot NET MAUI workload and [.NET Core SDK 7.0](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) or later version in your machine before starting to work on this project.
+Make sure that you have the compatible versions of [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/) with the Dot NET MAUI workload and [.NET Core SDK 7.0](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) or later version in your machine before starting to work on this project.
 
 ## How to run this application
 To run this application, you need to first clone the `getting-started-with-the-.net-maui-tab-view` repository and then open it in Visual Studio 2022. Now, simply build and run your project to view the output.
@@ -16,10 +16,10 @@ The .NET MAUI Tabs control provides four options that determine how the image of
 Use the [visual state manager](https://help.syncfusion.com/maui/tabview/visual-state-managers?utm_source=github&utm_medium=listing&utm_campaign=maui-tab-view-github-samples) to make changes to the .NET MAUI tab item properties based on the visual states set from code. The applicable visual states are selected, normal, and disable.
 
 ### Nested Tabs
-A [tab](https://help.syncfusion.com/maui/tabview/nested-tabs?utm_source=github&utm_medium=listing&utm_campaign=maui-tab-view-github-samples) view can be configured in another tab view using the items property.
+A [tab](https://help.syncfusion.com/maui/tabview/nested-tabs?utm_source=github&utm_medium=listing&utm_campaign=maui-tab-view-github-samples) Tab View allows configuration of nested tab items by using the items of Tab View, which holds the nested collection of tab items by tab items collection.
 
 ## Related links
-[Learn More about .NET MAUI Tab View](https://www.syncfusion.com/maui-controls/maui-tab-view?utm_source=github&utm_medium=listing&utm_campaign=maui-backdrop-github-samples)
+[Learn More about .NET MAUI Tab View](https://www.syncfusion.com/maui-controls/maui-tab-view?utm_source=github&utm_medium=listing&utm_campaign=maui-tab-view-github-samples)
 
 [Download Free Trial](https://www.syncfusion.com/downloads/maui?utm_source=github&utm_medium=listing&utm_campaign=maui-tab-view-github-samples)
 
