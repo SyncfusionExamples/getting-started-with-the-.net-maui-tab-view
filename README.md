@@ -9,13 +9,13 @@ To run this application, you need to first clone the `getting-started-with-the-.
 
 ## Features and Benefits
 
-### Tab Image Position
+### Tab image position
 The .NET MAUI Tabs control provides four options that determine how the image of the tab aligns relative to the text. The options are [top](https://help.syncfusion.com/maui/tabview/tab-item-customization#top?utm_source=github&utm_medium=listing&utm_campaign=maui-tab-view-github-samples), [bottom](https://help.syncfusion.com/maui/tabview/tab-item-customization#bottom?utm_source=github&utm_medium=listing&utm_campaign=maui-tab-view-github-samples), left and right.
 
-### Visual State Manager
+### Visual state manager
 Use the [visual state manager](https://help.syncfusion.com/maui/tabview/visual-state-managers?utm_source=github&utm_medium=listing&utm_campaign=maui-tab-view-github-samples) to make changes to the .NET MAUI tab item properties based on the visual states set from code. The applicable visual states are selected, normal, and disable.
 
-### Nested Tabs
+### Nested tabs
 A [tab](https://help.syncfusion.com/maui/tabview/nested-tabs?utm_source=github&utm_medium=listing&utm_campaign=maui-tab-view-github-samples) Tab View allows configuration of nested tab items by using the items of Tab View, which holds the nested collection of tab items by tab items collection.
 
 ## Related links
